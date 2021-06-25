@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+:root {
+    --primaryColor:#4ecdc4;
+    --secondaryColor:#ff6b6b;
+}
+.fs-14 {
+    font-size: 14px;
+}
+.fs-16 {
+    font-size: 16px;
+}
+.fs-18 {
+    font-size: 18px;
+}
+.fs-20 {
+    font-size: 20px;
+}
+.fs-22 {
+    font-size: 22px;
+}
+.fs-24 {
+    font-size: 24px;
+}
+
+.semi-bold {
+    font-weight: 700;
+}
+.bold {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: var(--primaryColor);
+}
+.navbar li {
+    margin: 0.2rem 1rem;
+}
+.navbar-nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navbar-nav a:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar-nav a.active {
+    font-weight: bold;
+
+}
+.navbar-toggler {
+    margin: 0.25rem 0.25rem;
+    color: white;
+}
+.navbar-toggler-icon {
+    height: 1.6rem;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler img {
+    height: 20px;
+    width: 20px;
+}
+
+
+/* footer */
+
+.row {
+    --bs-gutter-x:0;
+}
+footer {
+    padding: 0.4rem;
+    color: #fff;
+    background-color: var(--secondaryColor);
+}
+.footer-wrapper {
+    padding: 0.4rem;
+}
+.footer-wrapper .left-side {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-wrapper .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-wrapper .right-side ul {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.4rem;
+}
+.footer-wrapper .right-side ul li {
+    list-style-type: none;
+}
+.footer-wrapper .right-side ul li a {
+    color:white;
+    text-decoration: none;
+}
+.footer-wrapper .right-side .social-links-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.footer-wrapper .right-side .social-links-wrapper li {
+    list-style: none;
+    margin: 0.25em 1rem;
+    font-size: 20px;
+}
+.footer-wrapper .right-side .social-links-wrapper li a {
+    text-decoration: none;
+    color: #fff;
+}
